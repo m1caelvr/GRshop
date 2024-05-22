@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "CALÇA PANTALONA",
+        "price": 100,
+        "image": "ClosetsModel/CalcaPantalonaAlfaiataria2.jpg",
+        "size": ["S", "M", "L", "XL"],
+        "colors": ["color1", "color2", "color3", "color4"],
+        "type": "calca"
+    },
+    {
+        "id": 2,
+        "name": "CALÇA ZARA",
+        "price": 90,
+        "image": "ClosetsModel/CalcaZara.jpg",
+        "size": ["S", "M", "L", "XL"],
+        "colors": ["color1", "color2"],
+        "type": "calca"
+    },
+    {
+        "id": 3,
+        "name": "CONJUNTO RUANE",
+        "price": 110,
+        "image": "ClosetsModel/ConjuntoRuane.jpg",
+        "size": ["Tamanho único."],
+        "colors": ["color2"],
+        "type": "conjunto"
+    },
+    {
+        "id": 4,
+        "name": "CROPPED DIANA",
+        "price": 40,
+        "image": "ClosetsModel/CroppedDiana.jpg",
+        "size": ["P", "M", "G"],
+        "colors": ["color1", "color2", "color4"],
+        "type": "cropped"
+    },
+    {
+        "id": 5,
+        "name": "SHORT SOFIA",
+        "price": 80,
+        "image": "ClosetsModel/ShortCorrenteSofia.jpg",
+        "size": ["S", "M", "L", "XL"],
+        "colors": ["color1", "color2", "color4"],
+        "type": "short"
+    },
+    {
+        "id": 6,
+        "name": "VESTIDO BABADO",
+        "price": 100,
+        "image": "ClosetsModel/VestidoBabado3.jpg",
+        "size": ["S", "M", "L", "XL"],
+        "colors": ["color1"],
+        "type": "vestido"
+    },
+    {
+        "id": 7,
+        "name": "VESTIDO JACIARA",
+        "price": 100,
+        "image": "ClosetsModel/VestidoJaciara.jpg",
+        "size": ["S", "M", "L", "XL"],
+        "colors": ["color1", "color2"],
+        "type": "vestido"
+    },
+    {
+        "id": 8,
+        "name": "VESTIDO SUZANA",
+        "price": 100,
+        "image": "ClosetsModel/VestidoSuzana2.jpg",
+        "size": ["S", "M", "L", "XL"],
+        "colors": ["color1", "color2", "color4"],
+        "type": "vestido"
+    }
+]

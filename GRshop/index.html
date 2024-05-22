@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GR-closet</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/skeleton.css"> -->
+    <link rel="stylesheet" href="css/cart-button.css">
+    <link rel="stylesheet" href="css/section-item.css">
+    <link rel="icon" href="png/GRr.png"/>
+</head>
+<body id="containerr">
+    <div id="loading-screen" class="loading">
+        <span>Carregando informações</span>
+        <svg version="1.1" id="L7" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+          <path fill="#4b4b4b" d="M31.6,3.5C5.9,13.6-6.6,42.7,3.5,68.4c10.1,25.7,39.2,38.3,64.9,28.1l-3.1-7.9c-21.3,8.4-45.4-2-53.8-23.3
+            c-8.4-21.3,2-45.4,23.3-53.8L31.6,3.5z">
+              <animateTransform 
+                attributeName="transform" 
+                attributeType="XML" 
+                type="rotate"
+                dur="2s" 
+                from="0 50 50"
+                to="360 50 50" 
+                repeatCount="indefinite" />
+            </path>
+          <path fill="#4b4b4b" d="M42.3,39.6c5.7-4.3,13.9-3.1,18.1,2.7c4.3,5.7,3.1,13.9-2.7,18.1l4.1,5.5c8.8-6.5,10.6-19,4.1-27.7
+            c-6.5-8.8-19-10.6-27.7-4.1L42.3,39.6z">
+              <animateTransform 
+                attributeName="transform" 
+                attributeType="XML" 
+                type="rotate"
+                dur="1s" 
+                from="0 50 50"
+                to="-360 50 50" 
+                repeatCount="indefinite" />
+          </path>
+          <path fill="#ff7b00" d="M82,35.7C74.1,18,53.4,10.1,35.7,18S10.1,46.6,18,64.3l7.6-3.4c-6-13.5,0-29.3,13.5-35.3s29.3,0,35.3,13.5
+            L82,35.7z">
+              <animateTransform 
+                attributeName="transform" 
+                attributeType="XML" 
+                type="rotate"
+                dur="2s" 
+                from="0 50 50"
+                to="360 50 50" 
+                repeatCount="indefinite" />
+          </path>
+        </svg>
+        <div class="dev">Developed by WebMind - Company &copy; 2023</div>
+      </div>
+    
+      <div class= "notification notificationPay">
+        <div class="closeIconNot"><ion-icon name="arrow-up-outline"></ion-icon></div>
+        <div class="backItensNot">
+          <span class="iconPagment"><ion-icon name="wallet-sharp"></ion-icon></span>
+          <span class="notText">Escolha a forma de pagamento para continuar.</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress" id="myProgressBar1"></div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="notification notificationSize">
+        <div class="closeIconNot"><ion-icon name="arrow-up-outline"></ion-icon></div>
+        <div class="backItensNot">
+          <span class="iconPagment"><ion-icon name="accessibility"></ion-icon></span>
+          <span class="notText">Selecione um tamanho antes de adicionar ao carrinho.</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress" id="myProgressBar2"></div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="notification notificationCart">
+        <div class="closeIconNot"><ion-icon name="arrow-up-outline"></ion-icon></div>
+        <div class="backItensNot">
+          <span class="iconPagment"><ion-icon name="cart"></ion-icon></span>
+          <span class="notText">Carrinho vazio. Adicione itens antes de fazer um pedido.</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress" id="myProgressBar3"></div>
+        </div>
+      </div>
+    
+      <main class="main">
+        <div class="container section1">
+          <header>
+            <div class="title">
+              <img class="logoHeader skeleton" src="png/GRr.png" alt="Logo GR-Closet">CLOSET
+            </div>
+            <div class="icon-cart">
+              <ion-icon name="bag-handle-outline"></ion-icon>
+              <span>0</span>
+            </div>
+          </header>
+        </div>
+    
+        <div class="section2">
+          <div class="backWrapper">
+            <div class="warapper">
+              <div class="filter todos-tag filterClick">Todos</div>
+              <div class="filter calca-tag">Calças</div>
+              <div class="filter conjunto-tag">Conjuntos</div>
+              <div class="filter cropped-tag">Croppeds</div>
+              <div class="filter short-tag">Shorts</div>
+              <div class="filter vestido-tag">Vestido</div>
+            </div>
+          </div>
+    
+        </div>
+    
+        <div class="backListProduct section3">
+          <div class="listProduct"></div>
+        </div>
+    
+        <div class="section4">
+          <footer>
+            <div class="footer-section">
+              <div class="containerr">
+                <div class="LineFooter pt-5 pb-5">
+                  <div class="row">
+                      <a href="https://instagram.com/gr__closet?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">
+                          <div class="single-cta">
+                              <i class="fas fa-map-marker-alt"><ion-icon name="logo-instagram"></ion-icon></i>
+                              <div class="cta-text">
+                                  <h4>Meu instagram</h4>
+                                  <span>@gr__closet</span>
+                              </div>
+                          </div>
+                      </a>
+                      <a href="https://wa.me/+5581996160503?" target="_blank">
+                          <div class="single-cta">
+                              <i class="fas fa-phone"><ion-icon name="logo-whatsapp"></ion-icon></i>
+                              <div class="cta-text">
+                                  <h4 class="h4">Meu whatsapp</h4>
+                                  <span>(81)9 9616-0503</span>
+                              </div>
+                          </div>
+                      </a>
+                      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=gabrielevick21@gmail.com" target="_blank">
+                          <div class="single-cta">
+                              <i class="far fa-envelope-open"><ion-icon name="mail-outline"></ion-icon></i>
+                              <div class="cta-text">
+                                  <h4>Meu email</h4>
+                                  <span>gabrielevick21@gmail.com</span>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.html">
+                                  <img class="img-fluid skeleton" alt="Logo GR-Closet" src="png/GRr.png">
+                                  <div class="logoText">CLOSET</div>
+                                </a>
+                            </div>
+                            <div class="footer-text">
+                                <p>
+                                    Oferecemos uma seleção cuidadosa de 
+                                    moda jovem com o objetivo de inspirar confiança, 
+                                    promover a individualidade e ser o ponto 
+                                    de partida para a sua jornada fashion.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-widget containWhats">
+                        <div class="footer-widget-heading">
+                            <h3>Gupo de promoções</h3>
+                        </div>
+                        <div class="footer-textP mb-25">
+                            <p>Entre no nosso grupo de promoções exclusivo e recebe todas as nossas promoções de primeira mão!</p>
+                        </div>
+                        <div class="subscribe-form">
+                            <a href="https://chat.whatsapp.com/GKM3ScRM4hnKeXyYHt7qEg" target="_blank">
+                              <div>
+                                <ion-icon name="mail-outline"></ion-icon>
+                                Entre no nosso grupo.
+                              </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="copyright-area">
+                  <div class="row2">
+                      <div class="copyright-text">
+                          Gabriele vitoria &copy; 2023
+                      </div>
+                      <div class="footer-menu">
+                          <a onclick="scrollToBody()">Voltar ao topo</a>
+                      </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </main>
+      
+      <div class="cartTab">
+        <div class="backTittle">
+          <h1>Seu Carrinho</h1>
+        </div>
+        <h4 class="notProduct">SEU CARRINHO ESTÁ ESPERANDO PARA SER PREENCHIDO...</h4>
+        <div class="listCart">
+          <div class="tabFooterCart"></div>
+        </div>
+        <div class="footerCartElements">
+          <select name="pagamento" id="selectPag" class="selectPag">
+            <option value="null">Forma de pagamento:</option>
+            <option value="pix">Pix</option>
+            <option value="dinheiro">Dinheiro</option>
+            <option value="debito">Cartão de Débito</option>
+            <option value="credito">Cartão de Crédito</option>
+          </select>
+          <div class="backValueElement"></div>
+          <div class="btn">
+            <button class="close">FECHAR</button>
+            <button class="checkOut">FAZER PEDIDO</button>
+          </div>
+        </div>
+      </div>
+    
+      <section id="section" class="section-item" style="display: none;">
+        <div class="item-main">
+          <h1 class="title-info-item">Calça pantalona</h1>
+          <div class="back-item-img-section">
+            <div id="prevButton" class="icon-navigator"><ion-icon name="caret-back"></ion-icon></div>
+            <div class="item-img-section" id="imageSection">
+              <img src="ClosetsModel/CalcaPantalonaAlfaiataria2.jpg" alt="" loading="eager" class="item-img">
+              <img src="ClosetsModel/CalcaPantalonaAlfaiataria2.jpg" alt="" loading="eager" class="item-img">
+              <img src="ClosetsModel/CalcaPantalonaAlfaiataria2.jpg" alt="" loading="eager" class="item-img">
+              <img src="ClosetsModel/CalcaPantalonaAlfaiataria2.jpg" alt="" loading="eager" class="item-img">
+            </div>
+            <div id="nextButton" class="icon-navigator"><ion-icon name="caret-forward"></ion-icon></div>
+            <div class="bullet-container" id="bulletContainer"></div>
+          </div>
+    
+        </div>
+        <div class="item-info">
+          <div class="item-info-color">
+            <h3>COLOR</h3>
+            <div class="item-info-back-input">
+              <input type="radio" name="" id="black">
+              <input type="radio" name="" id="white">
+              <input type="radio" name="" id="red">
+              <input type="radio" name="" id="green">
+              <label for="black" class="item-info-for-label color-black color2"></label>
+              <label for="white" class="item-info-for-label color-white color1"></label>
+              <label for="red" class="item-info-for-label color-red color4"></label>          
+              <label for="green" class="item-info-for-label color-green green color5"></label>          
+            </div>
+          </div>
+          <h3>SIZE</h3>
+          <div class="item-info-price">R$100,00</div>
+          <div class="item-info-button">
+            <button type="submit">Adicionar ao carrinho</button>
+          </div>
+        </div>
+      </section>
+    
+    
+    <script src="js/app.js"></script>
+    <!-- <script src="js/skeleton.js"></script> -->
+    <script src="js/cart-button.js"></script>
+    <script src="js/itemInfoScroll.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
